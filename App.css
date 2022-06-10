@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "AbhayaLibre";
+  src: local("AbhayaLibre"),
+    url(./fonts/AbhayaLibre/ABHAYALIBRE-REGULAR.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "AbhayaLibreEB";
+  src: local("AbhayaLibre"),
+    url(./fonts/AbhayaLibre/ABHAYALIBRE-EXTRABOLD.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "LaoMN";
+  src: local("LaoMN"), url(./fonts/LaoMN/LaoMN.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "LaoMNB";
+  src: local("LaoMN"), url(./fonts/LaoMN/LaoMNB.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "TwCenMTStd";
+  src: local("TwCenMTStd"),
+    url(./fonts/TwCenMTStd/TWCENCLASSMTSTD-REGULAR3.TTF) format("truetype");
+}
+@font-face {
+  font-family: "CaviarDreams";
+  src: local("CaviarDreams"), url(./fonts/CAVIARDREAMS.TTF) format("opentype");
+}
+@font-face {
+  font-family: "CaviarDreamsBold";
+  src: local("CaviarDreamsBold"),
+    url(./fonts/CAVIAR\ DREAMS\ BOLD.TTF) format("opentype");
+}
+@font-face {
+  font-family: "CaviarDreamsBoldItalic";
+  src: local("CaviarDreamsBoldItalic"),
+    url(./fonts/CAVIARDREAMS_BOLDITALIC.TTF) format("opentype");
+}
+@font-face {
+  font-family: "CaviarDreamsItalic";
+  src: local("CaviarDreamsItalic"),
+    url(./fonts/CAVIARDREAMS_ITALIC.TTF) format("opentype");
+}
+@font-face {
+  font-family: "COCOMAT";
+  src: local("COCOMAT"), url(./fonts/COCOMAT-LIGHT-TRIAL.TTF) format("opentype");
+}
+@font-face {
+  font-family: "COCOMAT";
+  src: local("COCOMAT"),
+    url(./fonts/COCOMAT-ULTRALIGHT-TRIAL.TTF) format("opentype");
+}
+
+ul {
+  display: table;
+}
+
+.CaviarDreams {
+  font-family: "CaviarDreams";
+}
+.CaviarDreamsBold {
+  font-family: "CaviarDreamsBold";
+}
+.Allura {
+  font-family: "Allura", cursive;
+}
+
+.SmallCaps {
+  font-variant: small-caps;
+}
+
+.LaoMN {
+  font-family: LaoMN, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.LaoMNB {
+  font-family: LaoMN, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.TwCenMT {
+  font-family: TwCenMTStd, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+  font-weight: 500;
+}
+
+.AbhayaLibre {
+  font-family: AbhayaLibre, Arial, Helvetica, sans-serif;
+  /* font-size: 1rem; */
+}
+
+.AbhayaLibreEB {
+  font-family: AbhayaLibreEB, Arial, Helvetica, sans-serif;
+  /* font-size: 1rem; */
+}
+
+.Cocomat {
+  font-family: "COCOMAT", "sans serif";
+}
+
+.Shape {
+  clip-path: polygon(46% 0, 100% 58%, 100% 100%, 0 100%, 0 0);
+}
+
+.Baskervville {
+  font-family: "Baskervville", serif;
+}
+.verticaltxt {
+  writing-mode: horizontal-tb;
+  /* color:rebeccapurple */
+}
+
+.verticaltxtAlways {
+  writing-mode: vertical-rl;
+  /* color:red */
+}
+
+.drop-shadow-white {
+  --tw-drop-shadow: drop-shadow(0 0px 8px rgb(255 255 255))
+    drop-shadow(0 4px 5px rgb(255 255 255));
+  filter: var(--tw-filter);
+}
+
+@media screen and (min-width: 768px) {
+  #verticaltext {
+    writing-mode: vertical-rl;
+  }
+  .verticaltxt {
+    writing-mode: vertical-rl;
+    /* color:red */
+  }
+}
+
+/* Popup CSS */
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+#goalBookBanner {
+  background-image: url("/images/Goal%20Book%20images/goal-book-bg.png");
+}
